@@ -36,6 +36,5 @@ const job1 = schedule.scheduleJob(' 0 11 */2 * *',async function(){
     }  
     }
     catch(error1){
-      console.log(error1);
     }  
 });
