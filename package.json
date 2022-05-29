@@ -1,0 +1,16 @@
+{
+  "name": "precariedappv2uploader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cron.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.2.4",
+    "node-schedule": "^2.1.0"
+  }
+}
