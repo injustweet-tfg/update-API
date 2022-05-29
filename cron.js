@@ -27,13 +27,13 @@ const job2 = schedule.scheduleJob('*/2 * * * *', async function(){
 
 const job1 = schedule.scheduleJob(' 0 11 */2 * *',async function(){
     try{
-    if(!ok){
-      await fetch('https://precariedappv2.herokuapp.com/get', {method:"GET"}).then(res => res.json()).then(res => numTweets=JSON.parse(res).length);
+      if(!ok){
+        await fetch('https://precariedappv2.herokuapp.com/get', {method:"GET"}).then(res => res.json()).then(res => numTweets=JSON.parse(res).length);
 
-      console.log(numTweets)
-      ok=true;
-    
-    }  
+        console.log(numTweets)
+        ok=true;
+
+      }  
     }
     catch(error1){
     }  
